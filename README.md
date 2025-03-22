@@ -1,31 +1,30 @@
-# Implémentation d'Autoencodeurs et de Variational Autoencoders (VAE)
+# Implementation of Autoencoders and Variational Autoencoders (VAE)
 
-Ce repository contient trois notebooks implémentant des autoencodeurs et des autoencodeurs variationnels (VAE) sur les datasets Fashion MNIST et CelebA. Ces exercices permettent d'explorer les concepts de compression, reconstruction d'images et génération de nouvelles images grâce aux autoencodeurs.
+This repository contains three notebooks implementing autoencoders and variational autoencoders (VAE) on the Fashion MNIST and CelebA datasets. These exercises allow exploration of the concepts of image compression, reconstruction, and generation of new images using autoencoders.
 
-## Contenu du repository
+## Repository Content
 
-### 1. Autoencodeurs sur Fashion MNIST
-**Objectifs :**
-- Charger et visualiser le dataset Fashion MNIST.
-- Construire un autoencodeur en utilisant des couches convolutionnelles.
-- Entraîner l'autoencodeur et évaluer ses performances.
-- Extraire et visualiser les embeddings latents.
-- Réaliser la reconstruction des images et en générer de nouvelles.
+### 1. Autoencoders on Fashion MNIST
+**Objectives:**
+- Load and visualize the Fashion MNIST dataset.
+- Build an autoencoder using convolutional layers.
+- Train the autoencoder and evaluate its performance.
+- Extract and visualize the latent embeddings.
+- Perform image reconstruction and generate new images.
 
-### 2. Autoencodeurs Variationnels (VAE) sur Fashion MNIST
-**Objectifs :**
-- Charger le dataset Fashion MNIST et redimensionner les images de 28x28 à 32x32.
-- Créer des DataLoaders pour l'entraînement et la validation.
-- Visualiser un échantillon d'images pour vérifier l'intégrité des données.
-- Comprendre l'importance du padding et des transformations comme la normalisation.
-- Gérer l'organisation des batchs pour un entraînement efficace.
-- Implémenter et entraîner un VAE pour la reconstruction et la génération d'images.
+### 2. Variational Autoencoders (VAE) on Fashion MNIST
+**Objectives:**
+- Load the Fashion MNIST dataset and resize images from 28x28 to 32x32.
+- Create DataLoaders for training and validation.
+- Visualize a sample of images to verify data integrity.
+- Understand the importance of padding and transformations such as normalization.
+- Manage batch organization for efficient training.
+- Implement and train a VAE for image reconstruction and generation.
 
-### 3. Autoencodeurs Variationnels (VAE) sur CelebA
-**Objectifs :**
-- Obtenir et organiser le dataset CelebA.
-- Préparer les images : redimensionnement en 32x32, conversion en tenseurs et normalisation.
-- Créer un DataLoader avec `batch_size` et `shuffle=True` pour un entraînement optimal.
-- Visualiser un batch d'images pour s'assurer du bon chargement des données.
-- Implémenter un VAE pour apprendre la distribution des visages humains et générer de nouvelles images.
-
+### 3. Variational Autoencoders (VAE) on CelebA
+**Objectives:**
+- Obtain and organize the CelebA dataset.
+- Prepare images: resize to 32x32, convert to tensors, and normalize.
+- Create a DataLoader with batch_size and shuffle=True for optimal training.
+- Visualize a batch of images to ensure proper data loading.
+- Implement a VAE to learn the distribution of human faces and generate new images.
